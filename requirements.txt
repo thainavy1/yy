@@ -1,0 +1,16 @@
+akad
+rsa
+thrift
+requests
+pytz
+bs4
+gtts
+googletrans
+humanfriendly
+html5lib
+goslate
+pafy
+wikipedia
+tweepy
+youtube_dl
+ffmpy
