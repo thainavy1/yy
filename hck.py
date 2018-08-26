@@ -103,15 +103,13 @@ msg_dict1 = {}
 
 settings = {
     "Picture":False,
-    "allprotect":True,
     "group":{},
     "changeCover":False,
     "changeVideo":False,
     "groupPicture":False,
     "changePicture":False,
     "autoJoinTicket":False,
-    "restartPoint": False,
-    "Kickallmember":False,
+    "restartPoint":False,
     "userMention":{},
     "timeRestart":{},
     "server":{},
@@ -153,7 +151,9 @@ wait = {
     "addbots":False,
     "dellbots":False,
     "blacklist":{
-        "u5a0b4bb5d3a6d48aca8473326062af75", "u1f80bb313c70560510907c121185a354", "u1f80bb313c70560510907c121185a354": True
+        "u5a0b4bb5d3a6d48aca8473326062af75": True,
+        "u52b56623db1632669557da233322dae6": True,
+        "u1f80bb313c70560510907c121185a354": True
     },
     "wblacklist":False,
     "dblacklist":False,
@@ -187,11 +187,11 @@ wait = {
             "status":False
             },
     "Videos":{},
-    "Addaudio":{
+    "Addaudio": {
             "name": "",
             "status":False
             },
-    "Addvideo":{
+    "Addvideo": {
             "name": "",
             "status":False
             },
