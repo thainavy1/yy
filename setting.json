@@ -2,7 +2,7 @@
     "restartPoint": {},
     "restartBot": {},
     "userAgent": {},
-    "keyCommand": "",
+    "keyCommand": "hck",
     "autoAdd": false,
     "autoJoin": true,
     "autoJoinTicket": false,
@@ -36,12 +36,12 @@
     "autoread": false,
     "autoscan": false,
     "blacklist": {
-        "u5a0b4bb5d3a6d48aca8473326062af75": true
+        "u5a0b4bb5d3a6d48aca8473326062af75", "u1f80bb313c70560510907c121185a354", "u1f80bb313c70560510907c121185a354": true
     },
     "dblacklist": false,
     "foto": {},
     "greet": {},
-    "limit": 1,
+    "limit": 5,
     "message": "Hallo~",
     "message1": "Hey~",
     "allprotect": true,

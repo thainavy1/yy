@@ -113,8 +113,8 @@ settings = {
     "restartPoint": False,
     "Kickallmember":False,
     "userMention":{},
-    "timeRestart": {},
-    "server": {},
+    "timeRestart":{},
+    "server":{},
     "simiSimi":{},
     "userAgent": [
         "Mozilla/5.0 (X11; U; Linux i586; de; rv:5.0) Gecko/20100101 Firefox/5.0",
@@ -141,9 +141,9 @@ settings = {
 }
 
 wait = {
-    "limit": 10,
     "owner":{},
     "admin":{},
+    "creator":{},
     "addadmin":False,
     "delladmin":False,
     "staff":{},
@@ -153,7 +153,7 @@ wait = {
     "addbots":False,
     "dellbots":False,
     "blacklist":{
-        "u5a0b4bb5d3a6d48aca8473326062af75": True
+        "u5a0b4bb5d3a6d48aca8473326062af75", "u1f80bb313c70560510907c121185a354", "u1f80bb313c70560510907c121185a354": True
     },
     "wblacklist":False,
     "dblacklist":False,
@@ -195,6 +195,7 @@ wait = {
             "name": "",
             "status":False
             },
+    "limit":5,
     "unsend":False,
     "mention":"Ngintip aja nih...",
     "Respontag":"Sekarang tag besok jatuh cinta... ",
