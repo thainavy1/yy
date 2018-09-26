@@ -11,8 +11,8 @@ from bs4 import BeautifulSoup
 from googletrans import Translator
 import youtube_dl
 #=============
-#cl = LineClient()
-cl = LineClient(authToken='EvgPPkcn5qAOXK8PGD65.hFJXgvrJty58rzQg1nG81q.ug/q0lAzoiP+1/KzY3G5BK/8QhCut18/kiVdXi1IJdM=')
+cl = LineClient()
+#cl = LineClient(authToken='ExZg1Omp480sCra1dEA8.ajI+yIQBIeMP5t14rlSs/a.dnsR2QIfCEn0i0D78xZ72B+gkQHn4tjo5/YU40OwoIw=')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
@@ -24,7 +24,7 @@ mid = cl.getProfile().mid
 responsename1 = cl.getProfile().displayName
 
 #ki = LineClient()
-ki = LineClient(authToken='EvLV2qK6lkJPBWBvOXI6.YFTivvUQlJGyQ0q4WC5f5G.W7Tvs5t4FOLfP6L3/nJNrEDbhXC0lnpP62zUqAfszr8=')
+ki = LineClient(authToken='EwotbmWxJvYNGwKhHOG0.GGB9/B3gts+Q+LIcQ7yD0a.lixgARywkCHpbEOoX+nPCy+DQcanPSkQo3f+AjVZpJk=')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
@@ -34,17 +34,17 @@ Amid = ki.getProfile().mid
 responsename2 = ki.getProfile().displayName
 
 #kk = LineClient()
-kk = LineClient(authToken='Evgzt2YDGu5j8fI6S7y0.HekonXOId0LOrlrdV8suWa.Za9/BK3lzl/gXPpsb+8XV/NuwKNbdF6FWPfC2rPf9j0=')
+kk = LineClient(authToken='EwGTfz4oa6u2uE4LcbVc.05byiff18vszc1tCN9vlha.PidJWzShouHGJjnKclVR61z6gaTlAuDczzlPAnCgGXM=')
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk)
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
 lineProfile = kk.getProfile()
 lineSettings = kk.getSettings()
-Bmid = kk.getProfile().mid
-responsename3 = kk.getProfile().displayName
+Bmid = ki.getProfile().mid
+responsename3 = ki.getProfile().displayName
 
 #kc = LineClient()
-kc = LineClient(authToken='EvFUiD2pfNELRC3Aer45.As29tpM17+gWKq/m5Yz8Xq.WebKAPovwWTLwdjnqmglCD8iV+zDDoDIsP7eOSE3fhc=')
+kc = LineClient(authToken='EwZxWi8pqVzG56GHW2Ue.2P7/aOtLbEoFNtM9Zao/BG.V5AwOBdmThpyCRyIhvCvzIjRuwe5kiwhatDUTuXrQZg=')
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc)
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
@@ -54,7 +54,7 @@ Cmid = kc.getProfile().mid
 responsename4 = kc.getProfile().displayName
 
 #km = LineClient()
-km = LineClient(authToken='EwMTHv3xaSSvn60tes8c.qXiB6k3zJEG+VPAZ98trJa.AuMcEd6vA5w6wiZfyxlFAwSAu2o/Jh0eN9DGZIOEmoo=')
+km = LineClient(authToken='EwtLXMBBN6daPAoGz901.CT6/NHqQBWYrABNDHhJOWq.WZEfbtFXWkb7pl6n9+HZ9KuSbt+6uiGe3WHFl/PviZ0=')
 km.log("Auth Token : " + str(km.authToken))
 channel4 = LineChannel(km)
 km.log("Channel Access Token : " + str(channel4.channelAccessToken))
@@ -64,7 +64,7 @@ Dmid = km.getProfile().mid
 responsename5 = km.getProfile().displayName
 
 #kb = LineClient()
-kb = LineClient(authToken='EwZD2TMWRC8DLQeUU9Z2.hmdPzUzp8pDxkggTRRJByG.TpUnBKD5WpzVyF1SLVgfHCRajdwHRf+PYj09TLQEj2s=')
+kb = LineClient(authToken='Ewhz7iKOuvXWxoyzGhBf.6bEDR9ZpL8Ya4o9i7PiXxW.HeMv0ytLJioIU1rE4Wvh5R6R1C3KtL5IKBtQmr6kjn4=')
 kb.log("Auth Token : " + str(kb.authToken))
 channel5 = LineChannel(kb)
 kb.log("Channel Access Token : " + str(channel5.channelAccessToken))
@@ -85,10 +85,10 @@ responsename7 = sw.getProfile().displayName
 
 print("---LOGIN SUCCES---")
 
-creator = ["u054c3692f90083a5b1ad23e4a663f676"]
-owner = ["u054c3692f90083a5b1ad23e4a663f676"]
-admin = ["u054c3692f90083a5b1ad23e4a663f676"]
-staff = ["u054c3692f90083a5b1ad23e4a663f676"]
+creator = ["u0098bf622a9b8849a9e53d7844bb12f8"]
+owner = ["u0098bf622a9b8849a9e53d7844bb12f8"]
+admin = ["u0098bf622a9b8849a9e53d7844bb12f8","uda9efe0284e505e39f9d39bdcc03be6e","ue8179dafdccf97cc80e0ef48ee92315f","u8206fdf9bdc64d2feafe5882abb61dd0","ud39058205175f154990b54dc9fd54b1c","u72debe9e142a6f0c9169b9dd8478e8c1"]
+staff = ["u0098bf622a9b8849a9e53d7844bb12f8"]
 
 KAC = [cl,ki,kk,kc,km,kb]
 ABC = [ki,kk,kc,km,kb]
