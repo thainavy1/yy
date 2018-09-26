@@ -533,7 +533,7 @@ def atend():
 def help():
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage = "• Gunakan「 " + key + " 」di depannya\n\n" + \
+    helpMessage = "• help1「 " + key + " 」jangn typo kuy\n\n" + \
                   "「🈴」 " + key + "Me\n" + \
                   "「🈴」 " + key + "Mid「@」\n" + \
                   "「🈴」 " + key + "Steal「@」\n" + \
@@ -552,7 +552,7 @@ def help():
                   "「🈴」 " + key + "Tagall\n" + \
                   "「🈴」 " + key + "Joinall\n" + \
                   "「🈴」 " + key + "Byeall\n" + \
-                  "「🈴」 " + key + "Bye me\n" + \
+                  "「🈴」 " + key + "Byeme\n" + \
                   "「🈴」 " + key + "Leave「Namagrup」\n" + \
                   "「🈴」 " + key + "Ginfo\n" + \
                   "「🈴」 " + key + "Open\n" + \
@@ -626,8 +626,8 @@ def help():
                   "「🈴」 " + key + "Protectantijs「on/off」\n" + \
                   "「🈴」 " + key + "Antijs stay\n" + \
                   "「🈴」 " + key + "Ghost 「on/off」\n" + \
-                  "「🈴」 " + key + ".Ghost join\n" + \
-                  "「🈴」 " + key + ".Ghost leave\n" + \
+                  "「🈴」 " + key + "Ghost join\n" + \
+                  "「🈴」 " + key + "Ghost bye\n" + \
                   "\n「 Setting Kicker 」\n• Use「 " + key + " 」di depannya\n\n" + \
                   "「🈴」 " + key + "Kick「on/off」\n" + \
                   "「🈴」 " + key + "Nk「@」\n" + \
@@ -669,7 +669,7 @@ def help():
 def helpbot():
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage1 = "• Gunakan「 " + key + " 」di depannya\n\n" + \
+    helpMessage1 = "• help2「 " + key + " 」jangan typo kuy\n\n" + \
                   "「🈴」 " + key + "Blc\n" + \
                   "「🈴」 " + key + "Ban:on\n" + \
                   "「🈴」 " + key + "Unban:on\n" + \
@@ -1912,43 +1912,43 @@ def bot(op):
                                 timeNow = datetime.now(tz=tz)
                                 md = "\n「Settings List Protection」\n"
                                 if wait["mentionKick"] == True: md+="「✭」 Notag「ON」\n"
-                                else: md+="「✭」 Notag「OFF」\n"
+                                else: md+="「🈴」 Notag「OFF」\n"
                                 if wait["stickerOn"] == True: md+="「✭」 Sticker「ON」\n"
-                                else: md+="「✭」 Sticker「OFF」\n"
+                                else: md+="「🈴」 Sticker「OFF」\n"
                                 if wait["contact"] == True: md+="「✭」 Contact「ON」\n"
-                                else: md+="「✭」 Contact「OFF」\n"
+                                else: md+="「🈴」 Contact「OFF」\n"
                                 if wait["talkban"] == True: md+="「✭」 Talkban「ON」\n"
-                                else: md+="「✭」 Talkban「OFF」\n"
+                                else: md+="「🈴」 Talkban「OFF」\n"
                                 if wait["unsend"] == True: md+="「✭」 Unsend「ON」\n"
-                                else: md+="「✭」 Unsend「OFF」\n"
+                                else: md+="「🈴」 Unsend「OFF」\n"
                                 if wait["detectMention"] == True: md+="「✭」 Respon「ON」\n"
-                                else: md+="「✭」 Respon「OFF」\n"
+                                else: md+="「🈴」 Respon「OFF」\n"
                                 if wait["Timeline"] == True: md+="「✭」 Timeline「ON」\n"
-                                else: md+="「✭」 Timeline「OFF」\n"
+                                else: md+="「🈴」 Timeline「OFF」\n"
                                 if wait["autoJoin"] == True: md+="「✭」 Autojoin「ON」\n"
-                                else: md+="「✭」 Autojoin「OFF」\n"
+                                else: md+="「🈴」 Autojoin「OFF」\n"
                                 if wait["autoAdd"] == True: md+="「✭」 Autoadd「ON」\n"
-                                else: md+="「✭」 Autoadd「OFF」\n"
+                                else: md+="「🈴」 Autoadd「OFF」\n"
                                 if settings["autoJoinTicket"] == True: md+="「✭」 Jointicket「ON」\n"
-                                else: md+="「✭」 Jointicket「OFF」\n"
+                                else: md+="「🈴」 Jointicket「OFF」\n"
                                 if msg.to in welcome: md+="「✭」 Welcome「ON」\n"
-                                else: md+="「✭」 Welcome「OFF」\n"
+                                else: md+="「🈴」 Welcome「OFF」\n"
                                 if wait["autoLeave"] == True: md+="「✭」 Autoleave「ON」\n"
-                                else: md+="「✭」 Autoleave「OFF」\n"
+                                else: md+="「🈴」 Autoleave「OFF」\n"
                                 if msg.to in protectqr: md+="「✭」 Protecturl「ON」\n"
-                                else: md+="「✭」 Protecturl「OFF」\n"
+                                else: md+="「🈴」 Protecturl「OFF」\n"
                                 if msg.to in protectjoin: md+="「✭」 Protectjoin「ON」\n"
-                                else: md+="「✭」 Protectjoin「OFF」\n"
+                                else: md+="「🈴」 Protectjoin「OFF」\n"
                                 if msg.to in protectkick: md+="「✭」 Protectkick「ON」\n"
-                                else: md+="「✭」 Protectkick「OFF」\n"
+                                else: md+="「🈴」 Protectkick「OFF」\n"
                                 if msg.to in protectinvite: md+="「✭」 Protectinvite「ON」\n"
-                                else: md+="「✭」 Protectinvite「OFF」\n"
+                                else: md+="「🈴」 Protectinvite「OFF」\n"
                                 if msg.to in protectcancel: md+="「✭」 Protectcancel「ON」\n"
-                                else: md+="「✭」 Protectcancel「OFF」\n"
+                                else: md+="「🈴」 Protectcancel「OFF」\n"
                                 if msg.to in protectantijs: md+="「✭」 Protectantijs「ON」\n"
-                                else: md+="「✭」 Protectantijs 「OFF」\n"  
+                                else: md+="「🈴」 Protectantijs 「OFF」\n"  
                                 if msg.to in ghost: md+="「✭」 Ghost 「ON」\n"
-                                else: md+="「✭」 Ghost 「OFF」\n"
+                                else: md+="「🈴」 Ghost 「OFF」\n"
                                 ginfo = cl.getGroup(msg.to)
                                 ryan = cl.getContact(mid)
                                 zx = ""
@@ -2172,6 +2172,12 @@ def bot(op):
                                    km.removeAllMessages(op.param2)
                                    kb.removeAllMessages(op.param2)
                                    cl.sendText(msg.to,"Chat dibersihkan...")
+                                   ki.sendText(msg.to,"Chat dibersihkan...")
+                                   kk.sendText(msg.to,"Chat dibersihkan...")
+                                   kc.sendText(msg.to,"Chat dibersihkan...")
+                                   km.sendText(msg.to,"Chat dibersihkan...")
+                                   kb.sendText(msg.to,"Chat dibersihkan...")
+                                   sw.sendText(msg.to,"Chat dibersihkan...")
                                except:
                                    pass
 
@@ -3097,9 +3103,9 @@ def bot(op):
                                 kc.acceptGroupInvitationByTicket(msg.to,Ticket)
                                 km.acceptGroupInvitationByTicket(msg.to,Ticket)
                                 kb.acceptGroupInvitationByTicket(msg.to,Ticket)
-                                G = kb.getGroup(msg.to)
+                                G = cl.getGroup(msg.to)
                                 G.preventedJoinByTicket = True
-                                kb.updateGroup(G)
+                                cl.updateGroup(G)
 
                         elif cmd == "byeall":
                           if wait["selfbot"] == True:
@@ -3112,7 +3118,7 @@ def bot(op):
                                 km.leaveGroup(msg.to)
                                 kb.leaveGroup(msg.to)
 
-                        elif cmd == ".bye":
+                        elif cmd == "byeme":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
@@ -3200,7 +3206,7 @@ def bot(op):
                                 G.preventedJoinByTicket = True
                                 kb.updateGroup(G)
 
-                        elif cmd == ".ghost join":
+                        elif cmd == "ghost join":
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
                                 ginfo = cl.getGroup(msg.to)
@@ -3213,13 +3219,13 @@ def bot(op):
                                 G.preventedJoinByTicket = True
                                 sw.updateGroup(G)
 
-                        elif cmd == ".ghost leave":
+                        elif cmd == "ghost bye":
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
                                 sw.sendText(msg.to, "Bye bye fams "+str(G.name))
                                 sw.leaveGroup(msg.to)
 
-                        elif cmd == ".rtime":
+                        elif cmd == "rtime":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 get_profile_time_start = time.time()
