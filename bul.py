@@ -534,6 +534,8 @@ def help():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage = "• help1「 " + key + " 」jangn typo kuy\n\n" + \
+                  "「🈴」 " + key + "Help\n" + \
+                  "「🈴」 " + key + "Help2\n" + \
                   "「🈴」 " + key + "Me\n" + \
                   "「🈴」 " + key + "Mid「@」\n" + \
                   "「🈴」 " + key + "Steal「@」\n" + \
@@ -1863,7 +1865,7 @@ def bot(op):
                                 wait["selfbot"] = False
                                 cl.sendText(msg.to, "Selfbot dinonaktifkan")
                                             
-                        elif cmd == "help1":
+                        elif cmd == "help":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 helpMessage = help()
@@ -1911,43 +1913,43 @@ def bot(op):
                                 tz = pytz.timezone("Asia/Jakarta")
                                 timeNow = datetime.now(tz=tz)
                                 md = "\n「Settings List Protection」\n"
-                                if wait["mentionKick"] == True: md+="「✭」 Notag「ON」\n"
+                                if wait["mentionKick"] == True: md+="「🈳」 Notag「ON」\n"
                                 else: md+="「🈴」 Notag「OFF」\n"
-                                if wait["stickerOn"] == True: md+="「✭」 Sticker「ON」\n"
+                                if wait["stickerOn"] == True: md+="「🈳」 Sticker「ON」\n"
                                 else: md+="「🈴」 Sticker「OFF」\n"
-                                if wait["contact"] == True: md+="「✭」 Contact「ON」\n"
+                                if wait["contact"] == True: md+="「🈳」 Contact「ON」\n"
                                 else: md+="「🈴」 Contact「OFF」\n"
-                                if wait["talkban"] == True: md+="「✭」 Talkban「ON」\n"
+                                if wait["talkban"] == True: md+="「🈳」 Talkban「ON」\n"
                                 else: md+="「🈴」 Talkban「OFF」\n"
-                                if wait["unsend"] == True: md+="「✭」 Unsend「ON」\n"
+                                if wait["unsend"] == True: md+="「🈳」 Unsend「ON」\n"
                                 else: md+="「🈴」 Unsend「OFF」\n"
-                                if wait["detectMention"] == True: md+="「✭」 Respon「ON」\n"
+                                if wait["detectMention"] == True: md+="「🈳」 Respon「ON」\n"
                                 else: md+="「🈴」 Respon「OFF」\n"
-                                if wait["Timeline"] == True: md+="「✭」 Timeline「ON」\n"
+                                if wait["Timeline"] == True: md+="「🈳」 Timeline「ON」\n"
                                 else: md+="「🈴」 Timeline「OFF」\n"
-                                if wait["autoJoin"] == True: md+="「✭」 Autojoin「ON」\n"
+                                if wait["autoJoin"] == True: md+="「🈳」 Autojoin「ON」\n"
                                 else: md+="「🈴」 Autojoin「OFF」\n"
-                                if wait["autoAdd"] == True: md+="「✭」 Autoadd「ON」\n"
+                                if wait["autoAdd"] == True: md+="「🈳」 Autoadd「ON」\n"
                                 else: md+="「🈴」 Autoadd「OFF」\n"
-                                if settings["autoJoinTicket"] == True: md+="「✭」 Jointicket「ON」\n"
+                                if settings["autoJoinTicket"] == True: md+="「🈳」 Jointicket「ON」\n"
                                 else: md+="「🈴」 Jointicket「OFF」\n"
-                                if msg.to in welcome: md+="「✭」 Welcome「ON」\n"
+                                if msg.to in welcome: md+="「🈳」 Welcome「ON」\n"
                                 else: md+="「🈴」 Welcome「OFF」\n"
-                                if wait["autoLeave"] == True: md+="「✭」 Autoleave「ON」\n"
+                                if wait["autoLeave"] == True: md+="「🈳」 Autoleave「ON」\n"
                                 else: md+="「🈴」 Autoleave「OFF」\n"
-                                if msg.to in protectqr: md+="「✭」 Protecturl「ON」\n"
+                                if msg.to in protectqr: md+="「🈳」 Protecturl「ON」\n"
                                 else: md+="「🈴」 Protecturl「OFF」\n"
-                                if msg.to in protectjoin: md+="「✭」 Protectjoin「ON」\n"
+                                if msg.to in protectjoin: md+="「🈳」 Protectjoin「ON」\n"
                                 else: md+="「🈴」 Protectjoin「OFF」\n"
-                                if msg.to in protectkick: md+="「✭」 Protectkick「ON」\n"
+                                if msg.to in protectkick: md+="「🈳」 Protectkick「ON」\n"
                                 else: md+="「🈴」 Protectkick「OFF」\n"
-                                if msg.to in protectinvite: md+="「✭」 Protectinvite「ON」\n"
+                                if msg.to in protectinvite: md+="「🈳」 Protectinvite「ON」\n"
                                 else: md+="「🈴」 Protectinvite「OFF」\n"
-                                if msg.to in protectcancel: md+="「✭」 Protectcancel「ON」\n"
+                                if msg.to in protectcancel: md+="「🈳」 Protectcancel「ON」\n"
                                 else: md+="「🈴」 Protectcancel「OFF」\n"
-                                if msg.to in protectantijs: md+="「✭」 Protectantijs「ON」\n"
+                                if msg.to in protectantijs: md+="「🈳」 Protectantijs「ON」\n"
                                 else: md+="「🈴」 Protectantijs 「OFF」\n"  
-                                if msg.to in ghost: md+="「✭」 Ghost 「ON」\n"
+                                if msg.to in ghost: md+="「🈳」 Ghost 「ON」\n"
                                 else: md+="「🈴」 Ghost 「OFF」\n"
                                 ginfo = cl.getGroup(msg.to)
                                 ryan = cl.getContact(mid)
@@ -1997,7 +1999,7 @@ def bot(op):
                                 eltime = time.time() - mulai
                                 bot = runtime(eltime)
                                 start = time.time()
-                                sw.sendText("u054c3692f90083a5b1ad23e4a663f676", ':)')
+                                sw.sendText("u0098bf622a9b8849a9e53d7844bb12f8", ':)')
                                 elapsed_time = time.time() - start
                                 ryan = cl.getContact(mid)
                                 zx = ""
@@ -2023,7 +2025,7 @@ def bot(op):
                                 zxc += pesan2
                                 text = xpesan + zxc + ret_ + ""
                                 cl.sendMessage(to, text, contentMetadata={'MENTION':str('{"MENTIONEES":'+json.dumps(zx2).replace(' ','')+'}')}, contentType=0)
-                                cl.sendContact(to, "u054c3692f90083a5b1ad23e4a663f676")
+                                cl.sendContact(to, "u0098bf622a9b8849a9e53d7844bb12f8")
                             except Exception as e:
                                 cl.sendMessage(msg.to, str(e))
 
@@ -2271,7 +2273,7 @@ def bot(op):
                                     gTicket = "https://line.me/R/ti/g/{}".format(str(cl.reissueGroupTicket(G.id)))
                                 timeCreated = []
                                 timeCreated.append(time.strftime("%d-%m-%Y [ %H:%M:%S ]", time.localtime(int(G.createdTime) / 1000)))
-                                cl.sendMessage(msg.to, "「 Group Info 」\n「✭」 Nama Group : {}".format(G.name)+ "\n「✭」 ID Group : {}".format(G.id)+ "\n「✭」 Pembuat : {}".format(G.creator.displayName)+ "\n「✭」 Waktu Dibuat : {}".format(str(timeCreated))+ "\n「✭」 Jumlah Member : {}".format(str(len(G.members)))+ "\n「✭」 Jumlah Pending : {}".format(gPending)+ "\n「✭」 Group Qr : {}".format(gQr)+ "\n「✭」 Group Ticket : {}".format(gTicket))
+                                cl.sendMessage(msg.to, "「 Group Info 」\n「🈴」 Nama Group : {}".format(G.name)+ "\n「🈴」 ID Group : {}".format(G.id)+ "\n「🈴」 Pembuat : {}".format(G.creator.displayName)+ "\n「🈴」 Waktu Dibuat : {}".format(str(timeCreated))+ "\n「🈴」 Jumlah Member : {}".format(str(len(G.members)))+ "\n「🈴」 Jumlah Pending : {}".format(gPending)+ "\n「🈴」 Group Qr : {}".format(gQr)+ "\n「🈴」 Group Ticket : {}".format(gTicket))
                                 cl.sendMessage(msg.to, None, contentMetadata={'mid': G.creator.mid}, contentType=13)
                                 cl.sendImageWithURL(msg.to, 'http://dl.profile.line-cdn.net/'+G.pictureStatus)
                             except Exception as e:
@@ -2303,15 +2305,15 @@ def bot(op):
                                 timeCreated = []
                                 timeCreated.append(time.strftime("%d-%m-%Y [ %H:%M:%S ]", time.localtime(int(G.createdTime) / 1000)))
                                 ret_ += "「 Group Info 」"
-                                ret_ += "\n「✭」 Nama Group : {}".format(G.name)
-                                ret_ += "\n「✭」 ID Group : {}".format(G.id)
-                                ret_ += "\n「✭」 Pembuat : {}".format(gCreator)
-                                ret_ += "\n「✭」 Waktu Dibuat : {}".format(str(timeCreated))
-                                ret_ += "\n「✭」 Jumlah Member : {}".format(str(len(G.members)))
-                                ret_ += "\n「✭」 Jumlah Pending : {}".format(gPending)
-                                ret_ += "\n「✭」 Group Qr : {}".format(gQr)
-                                ret_ += "\n「✭」 Group Ticket : {}".format(gTicket)
-                                ret_ += "\n「✭」 Picture Url : http://dl.profile.line-cdn.net/{}".format(G.pictureStatus)
+                                ret_ += "\n「🈴」 Nama Group : {}".format(G.name)
+                                ret_ += "\n「🈴」 ID Group : {}".format(G.id)
+                                ret_ += "\n「🈴」 Pembuat : {}".format(gCreator)
+                                ret_ += "\n「🈴」 Waktu Dibuat : {}".format(str(timeCreated))
+                                ret_ += "\n「🈴」 Jumlah Member : {}".format(str(len(G.members)))
+                                ret_ += "\n「🈴」 Jumlah Pending : {}".format(gPending)
+                                ret_ += "\n「🈴」 Group Qr : {}".format(gQr)
+                                ret_ += "\n「🈴」 Group Ticket : {}".format(gTicket)
+                                ret_ += "\n「🈴」 Picture Url : http://dl.profile.line-cdn.net/{}".format(G.pictureStatus)
                                 ret_ += ""
                                 cl.sendMessage(to, str(ret_))
                                 cl.sendImageWithURL(msg.to, 'http://dl.profile.line-cdn.net/'+G.pictureStatus)
@@ -2672,8 +2674,8 @@ def bot(op):
                                 ret_ = ""
                                 for mem in G.members:
                                     no += 1
-                                    ret_ += "\n " "「✭」 "+ str(no) + ". " + mem.displayName
-                                cl.sendMessage(to,"「✭」 Group Name : [ " + str(G.name) + " ]\n\n   [ List Member ]\n" + ret_ + "\n\n「Total %i Members」" % len(G.members))
+                                    ret_ += "\n " "「🈴」 "+ str(no) + ". " + mem.displayName
+                                cl.sendMessage(to,"「🈴」 Group Name : [ " + str(G.name) + " ]\n\n   [ List Member ]\n" + ret_ + "\n\n「Total %i Members」" % len(G.members))
                             except: 
                                 pass
 
@@ -3630,12 +3632,12 @@ def bot(op):
                                   timeNow = datetime.now(tz=tz)
                                   if data[1] != "Subuh : " and data[2] != "Dzuhur : " and data[3] != "Ashar : " and data[4] != "Maghrib : " and data[5] != "Isha : ":
                                          ret_ = "「 Jadwal Sholat 」\n"
-                                         ret_ += "\n「✭」 Lokasi : " + data[0]
-                                         ret_ += "\n「✭」 " + data[1]
-                                         ret_ += "\n「✭」 " + data[2]
-                                         ret_ += "\n「✭」 " + data[3]
-                                         ret_ += "\n「✭」 " + data[4]
-                                         ret_ += "\n「✭」 " + data[5]
+                                         ret_ += "\n「🈴」 Lokasi : " + data[0]
+                                         ret_ += "\n「🈴」 " + data[1]
+                                         ret_ += "\n「🈴」 " + data[2]
+                                         ret_ += "\n「🈴」 " + data[3]
+                                         ret_ += "\n「🈴」 " + data[4]
+                                         ret_ += "\n「🈴」 " + data[5]
                                          ret_ += "\n\nJam : " + datetime.strftime(timeNow,'%H:%M:%S')
                                          ret_ += "\nTanggal : " + datetime.strftime(timeNow,'%Y-%m-%d')
                                   cl.sendMessage(msg.to, str(ret_))
@@ -3653,11 +3655,11 @@ def bot(op):
                                 timeNow = datetime.now(tz=tz)
                                 if "result" not in data:
                                     ret_ = "「 Status Cuaca 」\n"
-                                    ret_ += "\n「✭」 Lokasi : " + data[0].replace("Temperatur di kota ","")
-                                    ret_ += "\n「✭」 Suhu : " + data[1].replace("Suhu : ","") + " C"
-                                    ret_ += "\n「✭」 Kelembaban : " + data[2].replace("Kelembaban : ","") + " %"
-                                    ret_ += "\n「✭」 Tekanan udara : " + data[3].replace("Tekanan udara : ","") + " HPa"
-                                    ret_ += "\n「✭」 Kecepatan angin : " + data[4].replace("Kecepatan angin : ","") + " m/s"
+                                    ret_ += "\n「🈴」 Lokasi : " + data[0].replace("Temperatur di kota ","")
+                                    ret_ += "\n「🈴」 Suhu : " + data[1].replace("Suhu : ","") + " C"
+                                    ret_ += "\n「🈴」 Kelembaban : " + data[2].replace("Kelembaban : ","") + " %"
+                                    ret_ += "\n「🈴」 Tekanan udara : " + data[3].replace("Tekanan udara : ","") + " HPa"
+                                    ret_ += "\n「🈴」 Kecepatan angin : " + data[4].replace("Kecepatan angin : ","") + " m/s"
                                     ret_ += "\n\nJam : " + datetime.strftime(timeNow,'%H:%M:%S')
                                     ret_ += "\nTanggal : " + datetime.strftime(timeNow,'%Y-%m-%d')
                                 cl.sendMessage(msg.to, str(ret_))
@@ -3674,8 +3676,8 @@ def bot(op):
                                 if data[0] != "" and data[1] != "" and data[2] != "":
                                     link = "https://www.google.co.id/maps/@{},{},15z".format(str(data[1]), str(data[2]))
                                     ret_ = "「 Info Lokasi 」"
-                                    ret_ += "\n「✭」 Location : " + data[0]
-                                    ret_ += "\n「✭」 Google Maps : " + link
+                                    ret_ += "\n「🈴」 Location : " + data[0]
+                                    ret_ += "\n「🈴」 Google Maps : " + link
                                 else:
                                     ret_ = "[Details Location] Error : Location not found"
                                 cl.sendMessage(msg.to,str(ret_))
@@ -3720,8 +3722,8 @@ def bot(op):
                                    data = json.loads(data)
                                    start = timeit.timeit()
                                    ret_ = "「 Lirik Search 」"
-                                   ret_ += "\n「✭」 Judul : {}".format(str(data["title"]))
-                                   ret_ += "\n「✭」 Time Taken : {}".format(str(start))
+                                   ret_ += "\n「🈴」 Judul : {}".format(str(data["title"]))
+                                   ret_ += "\n「🈴」 Time Taken : {}".format(str(start))
                                    ret_ += "\n\n{}".format(str(data["lyric"]))
                                    cl.sendText(msg.to, str(ret_))
 
@@ -4669,7 +4671,11 @@ def bot(op):
                                   if msg.to in protectantijs:
                                       msgs = ""
                                   else:
-                                      protectantijs.append(msg.to)
+                                  	protectantijs.append(msg.to)
+                                  if msg.to in protectjoin:
+                                      msgs = ""
+                                  else:
+                                      protectjoin.append(msg.to)
                                   if msg.to in ghost:
                                       msgs = ""
                                   else:
@@ -4700,6 +4706,10 @@ def bot(op):
                                          msgs = ""
                                     if msg.to in protectantijs:
                                          protectantijs.remove(msg.to)
+                                    else:
+                                    	 msgs = ""
+                                    if msg.to in protectjoin:
+                                         protectjoin.remove(msg.to)
                                     else:
                                          msgs = ""
                                     if msg.to in ghost:
