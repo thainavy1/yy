@@ -11,8 +11,8 @@ from bs4 import BeautifulSoup
 from googletrans import Translator
 import youtube_dl
 #=============
-cl = LineClient()
-#cl = LineClient(authToken='ExZg1Omp480sCra1dEA8.ajI+yIQBIeMP5t14rlSs/a.dnsR2QIfCEn0i0D78xZ72B+gkQHn4tjo5/YU40OwoIw=')
+#cl = LineClient()
+cl = LineClient(authToken='ExZg1Omp480sCra1dEA8.ajI+yIQBIeMP5t14rlSs/a.dnsR2QIfCEn0i0D78xZ72B+gkQHn4tjo5/YU40OwoIw=')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
