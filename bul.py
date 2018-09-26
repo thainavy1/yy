@@ -576,7 +576,7 @@ def help():
                   "「🈴」 " + key + "Setkey「New Key」\n" + \
                   "「🈴」 " + key + "Mykey\n" + \
                   "「🈴」 " + key + "Resetkey\n" + \
-                  "\n「 Turn In Media 」\n• Use「 " + key + " 」di depannya\n\n" + \
+                  "\n「 Turn In Media 」\n• Use「 " + key + " 」jangan typo kuy\n\n" + \
                   "「🈴」 " + key + "Kode wilayah\n" + \
                   "「🈴」 " + key + "Listmp3\n" + \
                   "「🈴」 " + key + "Listvideo\n" + \
@@ -615,7 +615,7 @@ def help():
                   "「🈴」 " + key + "Get-lirik「Judul Lagu」\n" + \
                   "「🈴」 " + key + "Get-instagram「User Name」\n" + \
                   "「🈴」 " + key + "Get-date「tgl-bln-thn」\n" + \
-                  "\n「 Setting Protection 」\n• Use「 " + key + " 」di depannya\n\n" + \
+                  "\n「 Setting Protection 」\n• Use「 " + key + " 」jangan typo kuy\n\n" + \
                   "「🈴」 " + key + "Notag「on/off」\n" + \
                   "「🈴」 " + key + "Allprotect「on/off」\n" + \
                   "「🈴」 " + key + "Protecturl「on/off」\n" + \
@@ -628,12 +628,12 @@ def help():
                   "「🈴」 " + key + "Ghost 「on/off」\n" + \
                   "「🈴」 " + key + "Ghost join\n" + \
                   "「🈴」 " + key + "Ghost bye\n" + \
-                  "\n「 Setting Kicker 」\n• Use「 " + key + " 」di depannya\n\n" + \
+                  "\n「 Setting Kicker 」\n• Use「 " + key + " 」jangan typo kuy\n\n" + \
                   "「🈴」 " + key + "Kick「on/off」\n" + \
                   "「🈴」 " + key + "Nk「@」\n" + \
                   "「🈴」 " + key + "Kick「@」\n" + \
                   "「🈴」 " + key + "Kickall \n" + \
-                  "\n「 Setting User 」\n• Use「 " + key + " 」di depannya\n\n" + \
+                  "\n「 Setting User 」\n• Use「 " + key + " 」jangan typo kuy\n\n" + \
                   "「🈴」 " + key + "Invite「on/off」\n" + \
                   "「🈴」 " + key + "Sticker「on/off」\n" + \
                   "「🈴」 " + key + "Unsend「on/off」\n" + \
@@ -645,7 +645,7 @@ def help():
                   "「🈴」 " + key + "Welcome「on/off」\n" + \
                   "「🈴」 " + key + "Autoleave「on/off」\n" + \
                   "「🈴」 " + key + "Jointicket「on/off」\n" + \
-                  "\n「 For Admin 」\n• Use「 " + key + " 」di depannya\n\n" + \
+                  "\n「 For Admin 」\n• Use「 " + key + " 」jangan typo kuy\n\n" + \
                   "「🈴」 " + key + "Selfbot「on/off」\n" + \
                   "「🈴」 " + key + "Bot:on\n" + \
                   "「🈴」 " + key + "Bot:expell\n" + \
@@ -683,7 +683,7 @@ def helpbot():
                   "「🈴」 " + key + "Talkbanlist\n" + \
                   "「🈴」 " + key + "Clearban\n" + \
                   "「🈴」 " + key + "Refresh\n" + \
-                  "\n「 Check Settings 」\n• Use「 " + key + " 」di depannya\n\n" + \
+                  "\n「 Check Settings 」\n• Use「 " + key + " 」jangan typo kuy\n\n" + \
                   "「🈴」 " + key + "Cek sider\n" + \
                   "「🈴」 " + key + "Cek spam\n" + \
                   "「🈴」 " + key + "Cek pesan \n" + \
