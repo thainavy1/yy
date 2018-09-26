@@ -626,8 +626,8 @@ def help():
                   "「🈴」 " + key + "Protectantijs「on/off」\n" + \
                   "「🈴」 " + key + "Antijs stay\n" + \
                   "「🈴」 " + key + "Ghost 「on/off」\n" + \
-                  "「🈴」 " + key + "Ghost join\n" + \
-                  "「🈴」 " + key + "Ghost leave\n" + \
+                  "「🈴」 " + key + ".Ghost join\n" + \
+                  "「🈴」 " + key + ".Ghost leave\n" + \
                   "\n「 Setting Kicker 」\n• Use「 " + key + " 」di depannya\n\n" + \
                   "「🈴」 " + key + "Kick「on/off」\n" + \
                   "「🈴」 " + key + "Nk「@」\n" + \
