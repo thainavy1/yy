@@ -37,7 +37,7 @@ channel2 = LineChannel(kk)
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
 lineProfile = kk.getProfile()
 lineSettings = kk.getSettings()
-Bmid = ki.getProfile().mid
+Bmid = kk.getProfile().mid
 responsename3 = ki.getProfile().displayName
 
 kc = LineClient(authToken='EvFUiD2pfNELRC3Aer45.As29tpM17+gWKq/m5Yz8Xq.WebKAPovwWTLwdjnqmglCD8iV+zDDoDIsP7eOSE3fhc=')
