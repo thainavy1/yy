@@ -198,7 +198,7 @@ wait = {
     "limit":5,
     "unsend":False,
     "mention":"Ngintip aja nih...",
-    "Respontag":"Sekarang tag besok jatuh cinta... ",
+    "Respontag":"Sekali lagi tag,gue ipok lho... ",
     "welcome":"Welcome...",
     "leave":"See you next againt later...",
     "comment":"Super Like by: Bot...",
