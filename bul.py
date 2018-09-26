@@ -12,7 +12,7 @@ from googletrans import Translator
 import youtube_dl
 #=============
 #cl = LineClient()
-cl = LineClient(authToken='ExZg1Omp480sCra1dEA8.ajI+yIQBIeMP5t14rlSs/a.dnsR2QIfCEn0i0D78xZ72B+gkQHn4tjo5/YU40OwoIw=')
+cl = LineClient(authToken='ExZg1Omp480sCra1dEA8.ajI+yIQBIeMP5t14rlSs/a.dnsR2QIfCEn0i0D78xZ72B+gkQHn4tjo51/YU40OwoIw=')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
@@ -24,7 +24,7 @@ mid = cl.getProfile().mid
 responsename1 = cl.getProfile().displayName
 
 #ki = LineClient()
-ki = LineClient(authToken='EwotbmWxJvYNGwKhHOG0.GGB9/B3gts+Q+LIcQ7yD0a.lixgARywkCHpbEOoX+nPCy+DQcanPSkQo3f+AjVZpJk=')
+ki = LineClient(authToken='EwotbmWxJvYNGwKhHOG0.GGB9/B3gts+Q+LIcQ7yD0a.lixgARywkCHpbEOoX+nPCy+DQcanPS2kQo3f+AjVZpJk=')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
@@ -34,7 +34,7 @@ Amid = ki.getProfile().mid
 responsename2 = ki.getProfile().displayName
 
 #kk = LineClient()
-kk = LineClient(authToken='EwGTfz4oa6u2uE4LcbVc.05byiff18vszc1tCN9vlha.PidJWzShouHGJjnKclVR61z6gaTlAuDczzlPAnCgGXM=')
+kk = LineClient(authToken='EwGTfz4oa6u2uE4LcbVc.05byiff18vszc1tCN9vlha.PidJWzSh3ouHGJjnKclVR61z6gaTlAuDczzlPAnCgGXM=')
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk)
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
@@ -44,7 +44,7 @@ Bmid = kk.getProfile().mid
 responsename3 = kk.getProfile().displayName
 
 #kc = LineClient()
-kc = LineClient(authToken='EwZxWi8pqVzG56GHW2Ue.2P7/aOtLbEoFNtM9Zao/BG.V5AwOBdmThpyCRyIhvCvzIjRuwe5kiwhatDUTuXrQZg=')
+kc = LineClient(authToken='EwZxWi8pqVzG56GHW2Ue.2P7/aOtLbEoFNtM9Zao/BG.V5AwOBdmThpy4CRyIhvCvzIjRuwe5kiwhatDUTuXrQZg=')
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc)
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
@@ -54,7 +54,7 @@ Cmid = kc.getProfile().mid
 responsename4 = kc.getProfile().displayName
 
 #km = LineClient()
-km = LineClient(authToken='EwtLXMBBN6daPAoGz901.CT6/NHqQBWYrABNDHhJOWq.WZEfbtFXWkb7pl6n9+HZ9KuSbt+6uiGe3WHFl/PviZ0=')
+km = LineClient(authToken='EwtLXMBBN6daPAoGz901.CT6/NHqQBWYrABNDHhJOWq.WZEfbtFXW5kb7pl6n9+HZ9KuSbt+6uiGe3WHFl/PviZ0=')
 km.log("Auth Token : " + str(km.authToken))
 channel4 = LineChannel(km)
 km.log("Channel Access Token : " + str(channel4.channelAccessToken))
@@ -64,7 +64,7 @@ Dmid = km.getProfile().mid
 responsename5 = km.getProfile().displayName
 
 #kb = LineClient()
-kb = LineClient(authToken='Ewhz7iKOuvXWxoyzGhBf.6bEDR9ZpL8Ya4o9i7PiXxW.HeMv0ytLJioIU1rE4Wvh5R6R1C3KtL5IKBtQmr6kjn4=')
+kb = LineClient(authToken='Ewhz7iKOuvXWxoyzGhBf.6bEDR9ZpL8Ya4o9i7PiXxW.HeMv0ytLJioIU1rE64Wvh5R6R1C3KtL5IKBtQmr6kjn4=')
 kb.log("Auth Token : " + str(kb.authToken))
 channel5 = LineChannel(kb)
 kb.log("Channel Access Token : " + str(channel5.channelAccessToken))
