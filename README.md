@@ -21,9 +21,9 @@ C9 SERVER/ VPS :
 - `sudo pip3 install wikipedia`
 - `sudo pip3 install tweepy`
 - `sudo pip3 install youtube_dl`
-- `git clone https://github.com/6ul4n/ajs2`
-- `cd ajs2`
-- `python ajs.py`
+- `git clone https://github.com/6ul4n/BULPY3`
+- `cd BULPY3`
+- `python3 bul.py`
 
 INSTALL Di TERMUX :
 - `pkg update`
@@ -42,18 +42,18 @@ INSTALL Di TERMUX :
 - `pip3 install wikipedia`
 - `pip3 install youtube_dl`
 - `pip3 install tweepy`
-- `git clone https://github.com/6ul4n/ajs2`
-- `cd ajs2`
-- `python3 ajs.py`
+- `git clone https://github.com/6ul4n/BULPY3`
+- `cd BULPY3`
+- `python3 bul.py`
 
 Cara Menjalankan Bot Kembali :
 ------
 Di C9 :
-- `cd ajs2`
-- `python3 ajs.py`
+- `cd BULPY3`
+- `python3 bul.py`
 
 Di Termux :
-- `cd ajs2`
-- `python3 ajs.py`
+- `cd BULPY3`
+- `python3 bul.py`
 
 
