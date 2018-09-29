@@ -1,6 +1,5 @@
-# BOT PY3/ 6 ASIST+ANTI JS #
+# BOT PY3/ 7 BOT + ANTI JS #
 # RAMBATE RATA HAYO #
-BOT PY3/ 5 ASIST+ANTI JS
 ------
 Cara Install Bot :
 ------
