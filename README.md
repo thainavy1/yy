@@ -1,4 +1,4 @@
-# BOT PY3/ 7 BOT + ANTI JS #
+# BOT PY3 #
 # RAMBATE RATA HAYO #
 ------
 Cara Install Bot :
